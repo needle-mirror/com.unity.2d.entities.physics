@@ -1,11 +1,13 @@
 This package contains third-party software components governed by the license(s) indicated below:
 ---------
 
-Component Name: Box2D (https://github.com/erincatto/Box2D)
+Component Name: Box2D
 
 License Type: MIT
 
 Copyright (c) 2019 Erin Catto
+
+https://github.com/erincatto/Box2D
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

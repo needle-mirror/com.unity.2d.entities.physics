@@ -2,17 +2,18 @@
   "displayName": "2D Entities Physics",
   "name": "com.unity.2d.entities.physics",
   "unity": "2020.1",
-  "version": "0.1.0-preview.3",
+  "version": "0.2.0-preview.5",
   "dependencies": {
-    "com.unity.entities": "0.16.0-preview.21"
+    "com.unity.modules.physics2d": "1.0.0",
+    "com.unity.entities": "0.17.0-preview.41"
   },
   "description": "2D Entities Physics brings 2D Physics functionality to DOTS powered projects.",
   "upmCi": {
-    "footprint": "6f3fa045137502f5803df12885aba2c49002c4fe"
+    "footprint": "ba87c2a749cbbee1964635e0b352e4b222a7b190"
   },
   "repository": {
     "url": "https://github.cds.internal.unity3d.com/unity/2d.git",
     "type": "git",
-    "revision": "c75111a4af0cdb1e642bf6cec47bd92699247405"
+    "revision": "5a85b4a040f5db87c28859c39a8246a90a84b281"
   }
 }

@@ -4,7 +4,7 @@ using Unity.Jobs;
 namespace Unity.U2D.Entities.Physics
 {
     [UpdateAfter(typeof(PhysicsWorldSystem)), UpdateBefore(typeof(ExportPhysicsWorldSystem))]
-    public class StepPhysicsWorldSystem : SystemBase
+    public partial class StepPhysicsWorldSystem : SystemBase
     {
         // The simulation implementation
         public ISimulation Simulation { get; private set; }

@@ -10,7 +10,7 @@ using Unity.Transforms;
 namespace Unity.U2D.Entities.Physics
 {
     [UpdateBefore(typeof(StepPhysicsWorldSystem))]
-    public class PhysicsWorldSystem : SystemBase
+    public partial class PhysicsWorldSystem : SystemBase
     {
         public PhysicsWorld PhysicsWorld;
 

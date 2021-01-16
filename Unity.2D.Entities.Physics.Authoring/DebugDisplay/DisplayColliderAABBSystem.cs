@@ -9,7 +9,7 @@ namespace Unity.U2D.Entities.Physics.Authoring
 {
     [UpdateAfter(typeof(PhysicsDebugStreamSystem))]
     [UpdateBefore(typeof(PhysicsWorldSystem))]
-    internal class DisplayColliderAabbSystem : SystemBase
+    internal partial class DisplayColliderAabbSystem : SystemBase
     {
         PhysicsWorldSystem m_PhysicsWorldSystem;
         PhysicsDebugStreamSystem m_DebugStreamSystem;

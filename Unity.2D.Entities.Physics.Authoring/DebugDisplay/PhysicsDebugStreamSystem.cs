@@ -11,7 +11,7 @@ using UnityEngine;
 namespace Unity.U2D.Entities.Physics.Authoring
 {
     [UpdateBefore(typeof(PhysicsWorldSystem))]
-    public class PhysicsDebugStreamSystem : SystemBase
+    public partial class PhysicsDebugStreamSystem : SystemBase
     {
         readonly List<NativeStream> m_DebugStreams = new List<NativeStream>();
         PhysicsDrawComponent m_PhysicsDrawComponent;

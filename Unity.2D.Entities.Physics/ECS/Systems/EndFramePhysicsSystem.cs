@@ -7,7 +7,7 @@ namespace Unity.U2D.Entities.Physics
     [UpdateAfter(typeof(PhysicsWorldSystem))]
     [UpdateAfter(typeof(StepPhysicsWorldSystem))]
     [UpdateAfter(typeof(ExportPhysicsWorldSystem))]
-    public class EndFramePhysicsSystem : SystemBase
+    public partial class EndFramePhysicsSystem : SystemBase
     {
         public NativeList<JobHandle> HandlesToWaitFor;
 

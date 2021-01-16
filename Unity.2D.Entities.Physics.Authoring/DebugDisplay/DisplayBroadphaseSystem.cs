@@ -10,7 +10,7 @@ namespace Unity.U2D.Entities.Physics.Authoring
 {
     [UpdateAfter(typeof(PhysicsDebugStreamSystem))]
     [UpdateBefore(typeof(PhysicsWorldSystem))]
-    internal class DisplayBroadphaseSystem : SystemBase
+    internal partial class DisplayBroadphaseSystem : SystemBase
     {
         PhysicsWorldSystem m_PhysicsWorldSystem;
         PhysicsDebugStreamSystem m_DebugStreamSystem;

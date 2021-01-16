@@ -8,7 +8,7 @@ using Unity.Transforms;
 namespace Unity.U2D.Entities.Physics
 {
     [UpdateAfter(typeof(StepPhysicsWorldSystem)), UpdateBefore(typeof(EndFramePhysicsSystem)), UpdateBefore(typeof(TransformSystemGroup))]
-    public class ExportPhysicsWorldSystem : SystemBase
+    public partial class ExportPhysicsWorldSystem : SystemBase
     {
         public JobHandle FinalJobHandle { get; private set; }
 

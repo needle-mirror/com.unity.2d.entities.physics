@@ -12,7 +12,7 @@ namespace Unity.U2D.Entities.Physics.Authoring
 {
     [UpdateAfter(typeof(PhysicsDebugStreamSystem))]
     [UpdateBefore(typeof(PhysicsWorldSystem))]
-    public class DisplayColliderSystem : SystemBase
+    public partial class DisplayColliderSystem : SystemBase
     {
         PhysicsWorldSystem m_PhysicsWorldSystem;
         PhysicsDebugStreamSystem m_DebugStreamSystem;

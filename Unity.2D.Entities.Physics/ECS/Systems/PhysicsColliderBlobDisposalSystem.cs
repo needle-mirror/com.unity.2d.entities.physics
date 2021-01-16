@@ -5,7 +5,7 @@ namespace Unity.U2D.Entities.Physics
     // Handle disposing of Collider blobs when the entity has been destroyed
     // and the presence of a PhysicsColliderBlobOwner is detected.
     [UpdateBefore(typeof(PhysicsWorldSystem))]
-    class PhysicsColliderBlobDisposalSystem : SystemBase
+    partial class PhysicsColliderBlobDisposalSystem : SystemBase
     {
         protected override void OnUpdate()
         {
